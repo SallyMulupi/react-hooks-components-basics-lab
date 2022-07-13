@@ -21,12 +21,22 @@ function Home() {
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+    <div id="About">
+      <h1>About</h1>
+     
     </div>
   );
 }
+function App() {
+  return ( 
+  <div>
+      <NavBar /> 
+       <Home /> 
+    <About  /> 
+
+      </div>
+  );
+}
+
 
 export default App;
